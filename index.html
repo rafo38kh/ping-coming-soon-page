@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -18,6 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="./js/script.js"></script>
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
   <body>
@@ -33,11 +33,15 @@
         </div>
 
         <form action="" class="content__form">
-          <input
-            type="text"
-            class="content__input"
-            placeholder="Your email address..."
-          />
+          <div class="content__box">
+            <input
+              name="email"
+              class="content__input"
+              placeholder="Your email address..."
+            />
+            <p class="content__error"></p>
+          </div>
+
           <button class="content__button">Notify Me</button>
         </form>
 
@@ -58,6 +62,7 @@
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
               aria-hidden="true"
+              class="content__list-icon"
             >
               <title>facebook</title>
               <path
@@ -73,6 +78,7 @@
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
               aria-hidden="true"
+              class="content__list-icon"
             >
               <title>twitter</title>
               <path
@@ -88,6 +94,7 @@
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
               aria-hidden="true"
+              class="content__list-icon"
             >
               <title>instagram</title>
               <path
@@ -124,20 +131,5 @@
         >.
       </p>
     </footer>
-    <!-- <footer class="attribution">
-      Challenge by
-      <a
-        class="attribution__link"
-        href="https://www.frontendmentor.io?ref=challenge"
-        target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a
-        class="attribution__link"
-        href="https://github.com/rafo38kh"
-        target="_blank"
-        >rafo38kh</a
-      >.
-    </footer> -->
   </body>
 </html>
