@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/ping-coming-soon-page-with-scss-bem-css-flexbox-and-vanilla-js-QLUZwf8KK](https://www.frontendmentor.io/solutions/ping-coming-soon-page-with-scss-bem-css-flexbox-and-vanilla-js-QLUZwf8KK)
+- Live Site URL: [https://rafo38kh.github.io/ping-coming-soon-page/](https://rafo38kh.github.io/ping-coming-soon-page/)
 
 ## My process
 
@@ -41,6 +41,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - SCSS custom properties
 - CSS Flexbox
+- Vanilla JS
 - Mobile-first workflow
 
 ## Author
