@@ -1,0 +1,28 @@
+$color-primary: hsl(223, 87%, 63%);
+$color-primary--light: hsl(223, 100%, 88%);
+$color-secondary: hsl(209, 33%, 12%);
+$color-secondary--light: hsl(0, 0%, 59%);
+$color-tertiary: hsl(354, 100%, 66%);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Libre Franklin", sans-serif;
+  // - Weights: 300, 600, 700
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+}
